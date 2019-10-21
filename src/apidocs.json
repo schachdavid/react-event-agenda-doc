@@ -1,0 +1,328 @@
+{
+	"id": 0,
+	"name": "react-event-agenda",
+	"kind": 0,
+	"flags": {},
+	"children": [
+		{
+			"id": 1,
+			"name": "\"AgendaViewModelInterface\"",
+			"kind": 1,
+			"kindString": "External module",
+			"flags": {
+				"isExported": true
+			},
+			"originalName": "/Users/i511786/Documents/ba_code/react-event-agenda_repos/react-event-agenda/src/AgendaViewModelInterface.ts",
+			"children": [
+				{
+					"id": 2,
+					"name": "AgendaViewModelI",
+					"kind": 256,
+					"kindString": "Interface",
+					"flags": {
+						"isExported": true
+					},
+					"children": [
+						{
+							"id": 5,
+							"name": "addItem",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 6,
+									"name": "addItem",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"comment": {
+										"shortText": "Undo the last thing that happened on agenda item data level."
+									},
+									"parameters": [
+										{
+											"id": 7,
+											"name": "item",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "intrinsic",
+												"name": "any"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "AgendaViewModelInterface.ts",
+									"line": 13,
+									"character": 11
+								}
+							]
+						},
+						{
+							"id": 8,
+							"name": "deleteItem",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 9,
+									"name": "deleteItem",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"comment": {
+										"shortText": "Deletes the agenda item with the given id."
+									},
+									"parameters": [
+										{
+											"id": 10,
+											"name": "itemId",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "AgendaViewModelInterface.ts",
+									"line": 18,
+									"character": 14
+								}
+							]
+						},
+						{
+							"id": 3,
+							"name": "getDays",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 4,
+									"name": "getDays",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"comment": {
+										"shortText": "Get all agenda items."
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "any"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "AgendaViewModelInterface.ts",
+									"line": 8,
+									"character": 11
+								}
+							]
+						},
+						{
+							"id": 17,
+							"name": "getEndTime",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 18,
+									"name": "getEndTime",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"comment": {
+										"shortText": "Gets the agenda's end time."
+									},
+									"type": {
+										"type": "reference",
+										"name": "Moment"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "AgendaViewModelInterface.ts",
+									"line": 38,
+									"character": 14
+								}
+							]
+						},
+						{
+							"id": 15,
+							"name": "getStartTime",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 16,
+									"name": "getStartTime",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"comment": {
+										"shortText": "Gets the agenda's start time."
+									},
+									"type": {
+										"type": "reference",
+										"name": "Moment"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "AgendaViewModelInterface.ts",
+									"line": 33,
+									"character": 16
+								}
+							]
+						},
+						{
+							"id": 13,
+							"name": "redo",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 14,
+									"name": "redo",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"comment": {
+										"shortText": "Undo the last thing that happened on agenda item data level."
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "AgendaViewModelInterface.ts",
+									"line": 28,
+									"character": 8
+								}
+							]
+						},
+						{
+							"id": 11,
+							"name": "undo",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 12,
+									"name": "undo",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"comment": {
+										"shortText": "Undo the last thing that happened on agenda item data level."
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "AgendaViewModelInterface.ts",
+									"line": 23,
+									"character": 8
+								}
+							]
+						}
+					],
+					"groups": [
+						{
+							"title": "Methods",
+							"kind": 2048,
+							"children": [
+								5,
+								8,
+								3,
+								17,
+								15,
+								13,
+								11
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "AgendaViewModelInterface.ts",
+							"line": 3,
+							"character": 41
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Interfaces",
+					"kind": 256,
+					"children": [
+						2
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "AgendaViewModelInterface.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		}
+	],
+	"groups": [
+		{
+			"title": "External modules",
+			"kind": 1,
+			"children": [
+				1
+			]
+		}
+	]
+}
