@@ -1,4 +1,4 @@
-// import Demo from "./pages/Demo";
+import 'react-app-polyfill/stable';
 import React from "react";
 import ReactDOM from "react-dom";
 import { Catalog, pageLoader } from "catalog";

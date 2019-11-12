@@ -14,7 +14,6 @@ Simple Agenda${(
           </div>
 
         </div>
-
       </ReactSpecimen>
     )}
   `;

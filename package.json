@@ -7,8 +7,10 @@
     "@types/node": "12.7.11",
     "@types/react": "16.9.5",
     "@types/react-dom": "16.9.1",
+    "babel-polyfill": "^6.26.0",
     "catalog": "^3.6.0",
     "react": "^16.10.2",
+    "react-app-polyfill": "^1.0.4",
     "react-dom": "^16.10.2",
     "react-scripts": "3.2.0",
     "typescript": "3.6.4"
@@ -19,7 +21,6 @@
     "test": "react-app-rewired test --env=jsdom",
     "eject": "react-scripts eject",
     "generate-doc": "typedoc --json src/apidocs.json --module commonjs --tsconfig tdconfig.json"
-
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -27,10 +28,10 @@
   "browserslist": {
     "production": [
       ">0.2%",
-      "not dead",
-      "not op_mini all"
+      "not dead"
     ],
     "development": [
+      "ie 11",
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
