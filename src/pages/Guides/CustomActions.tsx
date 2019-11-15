@@ -3,9 +3,12 @@ import { markdown, ReactSpecimen, CodeSpecimen } from "catalog";
 import Agenda, { AgendaViewModel } from 'react-event-agenda'
 
 
+
 export default () =>
   markdown`
-    ${(<CodeSpecimen lang="jsx" collapsed={true} rawBody={`import React, { Component } from 'react'
+> Add custom actions with icons for the agenda items.
+
+${(<CodeSpecimen lang="jsx" collapsed={true} rawBody={`import React, { Component } from 'react'
 import Agenda, {AgendaViewModel} from 'react-event-agenda'
 
 
@@ -36,5 +39,5 @@ export default class App extends Component {
 
     )}
     
-  `;
+`;
 

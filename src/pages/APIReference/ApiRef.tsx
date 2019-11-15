@@ -1,6 +1,6 @@
 import React from 'react';
 import { markdown, ReactSpecimen } from 'catalog';
-import jsonFile from '../apidocs.json';
+import jsonFile from '../../apidocs.json';
 
 
 
