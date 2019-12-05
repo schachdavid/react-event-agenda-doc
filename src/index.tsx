@@ -15,6 +15,7 @@ import GettingStarted from './pages/Guides/GettingStarted';
 
 ReactDOM.render(
     <Catalog
+        useBrowserHistory={true}
         title="React Event Agenda"
 
         theme={{
@@ -31,15 +32,12 @@ ReactDOM.render(
                     { path: `/fundamentals`, title: `Fundamentals`, content: Fundamentals },
                     { path: `/theming`, title: `Theming`, content: Theming },
                     { path: `/custom-actions`, title: `Custom Actions`, content: CustomActions },
-
-                    // Other subpages of 'Basics'
                 ]
             },
             {
                 title: 'API Reference',
                 pages: [
                     { path: `/api`, title: `API Reference`, content: ApiRef },
-                    // Other subpages of 'Basics'
                 ]
             },
 
