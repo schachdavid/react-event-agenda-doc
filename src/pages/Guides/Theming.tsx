@@ -46,7 +46,7 @@ export default class App extends Component {
   render () {
     return (
       <div style={{height: '100vh', width: '100vw', maxWidth: '100%'}}>
-        <Agenda agendaViewModel={this.agendaViewModel} colorPalette={this.colorPalette}/>
+        <Agenda style={{fontFamily: 'Nunito, sans-serif'}} agendaViewModel={this.agendaViewModel} colorPalette={this.colorPalette}/>
       </div>
     )
   }
@@ -129,33 +129,34 @@ export default class App extends Component {
     )}
 
 ### Icons
-change the icons by...
+Change the icons by registering different icons using fabric's register function.
 
 ${(<CodeSpecimen lang="jsx" rawBody={`
+import { registerIcons } from '@uifabric/styling';
 
-//App.tsx
 //[...]
-    <div style={{height: '100vh', width: '100vw', maxWidth: '100%'}}>
-      <Agenda agendaViewModel={this.agendaViewModel} colorPalette={this.colorPalette}/>
-    </div>
-//[...]
+
+registerIcons({
+  icons: {
+      'delete': //custom icon
+      'settings': //custom icon
+      //[...]
+  }
+});
 }`}></CodeSpecimen>)}
 
 
 ### Fonts
-Change the font by using the \`className\` prop like you do with every other component.
+Change the font by using the style prop of the agenda component.
 
 ${(<CodeSpecimen lang="jsx" rawBody={`
-//App.module.css
 
-.agendaContainer {
-  @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600&display=swap');
-}
-
-//App.tsx
 //[...]
     <div style={{height: '100vh', width: '100vw', maxWidth: '100%'}}>
-      <Agenda agendaViewModel={this.agendaViewModel} colorPalette={this.colorPalette}/>
+      <Agenda 
+      style={{fontFamily: 'Nunito, sans-serif'}} 
+      agendaViewModel={this.agendaViewModel}
+      />
     </div>
 //[...]
 }`}></CodeSpecimen>)}
@@ -197,7 +198,9 @@ colorPalette = {
 render () {
   return (
     <div style={{height: '100vh', width: '100vw', maxWidth: '100%'}}>
-      <Agenda agendaViewModel={this.agendaViewModel} colorPalette={this.colorPalette}/>
+      <Agenda 
+      agendaViewModel={this.agendaViewModel} 
+      colorPalette={this.colorPalette}/>
     </div>
   )
 }
