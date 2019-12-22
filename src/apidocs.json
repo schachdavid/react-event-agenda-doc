@@ -335,7 +335,7 @@
 							"sources": [
 								{
 									"fileName": "AgendaViewModel.ts",
-									"line": 831,
+									"line": 832,
 									"character": 21
 								}
 							]
@@ -355,7 +355,9 @@
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
-									"comment": {},
+									"comment": {
+										"shortText": "Adds the item to the given Track and sorts all items on the track afterwards."
+									},
 									"parameters": [
 										{
 											"id": 388,
@@ -425,7 +427,7 @@
 							"sources": [
 								{
 									"fileName": "AgendaViewModel.ts",
-									"line": 349,
+									"line": 350,
 									"character": 11
 								}
 							]
@@ -482,7 +484,7 @@
 							"sources": [
 								{
 									"fileName": "AgendaViewModel.ts",
-									"line": 701,
+									"line": 702,
 									"character": 21
 								}
 							]
@@ -542,7 +544,7 @@
 							"sources": [
 								{
 									"fileName": "AgendaViewModel.ts",
-									"line": 679,
+									"line": 680,
 									"character": 23
 								}
 							]
@@ -571,7 +573,7 @@
 							"sources": [
 								{
 									"fileName": "AgendaViewModel.ts",
-									"line": 811,
+									"line": 812,
 									"character": 41
 								}
 							]
@@ -603,7 +605,7 @@
 							"sources": [
 								{
 									"fileName": "AgendaViewModel.ts",
-									"line": 751,
+									"line": 752,
 									"character": 19
 								}
 							]
@@ -635,7 +637,7 @@
 							"sources": [
 								{
 									"fileName": "AgendaViewModel.ts",
-									"line": 720,
+									"line": 721,
 									"character": 20
 								}
 							]
@@ -667,7 +669,7 @@
 							"sources": [
 								{
 									"fileName": "AgendaViewModel.ts",
-									"line": 652,
+									"line": 653,
 									"character": 11
 								}
 							]
@@ -699,7 +701,7 @@
 							"sources": [
 								{
 									"fileName": "AgendaViewModel.ts",
-									"line": 628,
+									"line": 629,
 									"character": 11
 								}
 							]
@@ -760,7 +762,7 @@
 							"sources": [
 								{
 									"fileName": "AgendaViewModel.ts",
-									"line": 456,
+									"line": 457,
 									"character": 36
 								}
 							]
@@ -1046,7 +1048,7 @@
 							"sources": [
 								{
 									"fileName": "AgendaViewModel.ts",
-									"line": 440,
+									"line": 441,
 									"character": 35
 								}
 							]
@@ -1384,7 +1386,7 @@
 							"sources": [
 								{
 									"fileName": "AgendaViewModel.ts",
-									"line": 781,
+									"line": 782,
 									"character": 19
 								}
 							]
@@ -1645,7 +1647,7 @@
 							"sources": [
 								{
 									"fileName": "AgendaViewModel.ts",
-									"line": 805,
+									"line": 806,
 									"character": 32
 								}
 							]
@@ -1957,7 +1959,7 @@
 							"sources": [
 								{
 									"fileName": "AgendaViewModel.ts",
-									"line": 429,
+									"line": 430,
 									"character": 18
 								}
 							]
@@ -2053,7 +2055,7 @@
 							"sources": [
 								{
 									"fileName": "AgendaViewModel.ts",
-									"line": 474,
+									"line": 475,
 									"character": 13
 								}
 							]
@@ -2120,7 +2122,7 @@
 							"sources": [
 								{
 									"fileName": "AgendaViewModel.ts",
-									"line": 413,
+									"line": 414,
 									"character": 19
 								}
 							]
@@ -2152,7 +2154,7 @@
 							"sources": [
 								{
 									"fileName": "AgendaViewModel.ts",
-									"line": 668,
+									"line": 669,
 									"character": 32
 								}
 							]
@@ -2184,7 +2186,7 @@
 							"sources": [
 								{
 									"fileName": "AgendaViewModel.ts",
-									"line": 761,
+									"line": 762,
 									"character": 16
 								}
 							]
@@ -2216,7 +2218,7 @@
 							"sources": [
 								{
 									"fileName": "AgendaViewModel.ts",
-									"line": 730,
+									"line": 731,
 									"character": 17
 								}
 							]
@@ -2279,7 +2281,7 @@
 							"sources": [
 								{
 									"fileName": "AgendaViewModel.ts",
-									"line": 660,
+									"line": 661,
 									"character": 17
 								}
 							]
@@ -2417,7 +2419,7 @@
 							"sources": [
 								{
 									"fileName": "AgendaViewModel.ts",
-									"line": 637,
+									"line": 638,
 									"character": 8
 								}
 							]
@@ -2758,7 +2760,7 @@
 							"sources": [
 								{
 									"fileName": "AgendaViewModel.ts",
-									"line": 613,
+									"line": 614,
 									"character": 8
 								}
 							]
@@ -2790,7 +2792,7 @@
 							"sources": [
 								{
 									"fileName": "AgendaViewModel.ts",
-									"line": 598,
+									"line": 599,
 									"character": 15
 								}
 							]
@@ -2853,7 +2855,7 @@
 															"sources": [
 																{
 																	"fileName": "AgendaViewModel.ts",
-																	"line": 364,
+																	"line": 365,
 																	"character": 84
 																}
 															],
@@ -2882,7 +2884,7 @@
 															"sources": [
 																{
 																	"fileName": "AgendaViewModel.ts",
-																	"line": 364,
+																	"line": 365,
 																	"character": 62
 																}
 															],
@@ -2911,7 +2913,7 @@
 															"sources": [
 																{
 																	"fileName": "AgendaViewModel.ts",
-																	"line": 364,
+																	"line": 365,
 																	"character": 44
 																}
 															],
@@ -2944,7 +2946,7 @@
 													"sources": [
 														{
 															"fileName": "AgendaViewModel.ts",
-															"line": 364,
+															"line": 365,
 															"character": 36
 														}
 													]
@@ -2990,7 +2992,7 @@
 							"sources": [
 								{
 									"fileName": "AgendaViewModel.ts",
-									"line": 364,
+									"line": 365,
 									"character": 14
 								}
 							]
@@ -3060,7 +3062,7 @@
 							"sources": [
 								{
 									"fileName": "AgendaViewModel.ts",
-									"line": 393,
+									"line": 394,
 									"character": 21
 								}
 							]
