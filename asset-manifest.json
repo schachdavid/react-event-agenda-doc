@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.js": "/react-event-agenda-doc/static/js/main.da6bf3a3.chunk.js",
-    "main.js.map": "/react-event-agenda-doc/static/js/main.da6bf3a3.chunk.js.map",
+    "main.js": "/react-event-agenda-doc/static/js/main.be6c1c75.chunk.js",
+    "main.js.map": "/react-event-agenda-doc/static/js/main.be6c1c75.chunk.js.map",
     "runtime-main.js": "/react-event-agenda-doc/static/js/runtime-main.15514581.js",
     "runtime-main.js.map": "/react-event-agenda-doc/static/js/runtime-main.15514581.js.map",
-    "static/js/2.a0097add.chunk.js": "/react-event-agenda-doc/static/js/2.a0097add.chunk.js",
-    "static/js/2.a0097add.chunk.js.map": "/react-event-agenda-doc/static/js/2.a0097add.chunk.js.map",
+    "static/js/2.8c0ac8f7.chunk.js": "/react-event-agenda-doc/static/js/2.8c0ac8f7.chunk.js",
+    "static/js/2.8c0ac8f7.chunk.js.map": "/react-event-agenda-doc/static/js/2.8c0ac8f7.chunk.js.map",
     "index.html": "/react-event-agenda-doc/index.html",
-    "precache-manifest.d12dc474d662aa335413ead5e882bbb5.js": "/react-event-agenda-doc/precache-manifest.d12dc474d662aa335413ead5e882bbb5.js",
+    "precache-manifest.2c98656b5f8afb49f2e1c5bfd0291c28.js": "/react-event-agenda-doc/precache-manifest.2c98656b5f8afb49f2e1c5bfd0291c28.js",
     "service-worker.js": "/react-event-agenda-doc/service-worker.js"
   },
   "entrypoints": [
     "static/js/runtime-main.15514581.js",
-    "static/js/2.a0097add.chunk.js",
-    "static/js/main.da6bf3a3.chunk.js"
+    "static/js/2.8c0ac8f7.chunk.js",
+    "static/js/main.be6c1c75.chunk.js"
   ]
 }
