@@ -7,7 +7,7 @@ export default () =>
 > react-event-agenda is reusable react component. It allows users to create an event's agenda in a flexible manner.  
 
 \`\`\`hint
-React Event Agenda is not actively maintained and there are still some features missing. It was mainly developed as a ui component for:
+React Event Agenda is not actively maintained and there are still some features missing. It was mainly developed as a ui component for the MS Outlook [agenda-builder-add-in](https://github.com/schachdavid/agenda-builder-add-in)
 \`\`\`
 
 ## Installation
